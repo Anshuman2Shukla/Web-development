@@ -1,0 +1,39 @@
+/* child combinator */
+p > strong {
+    color: blue;
+}
+
+/* next sibling */
+p + ul {
+    color: chocolate;
+}
+
+/* adjacent sibling */
+h1 + p {
+    color: crimson;
+}
+
+/* general sibling */
+h2 ~ span {
+    color: teal;
+}
+
+/* descendant combinator */
+div article {
+    background-color: lavender;
+}
+
+/* attribute selector */
+a[hreflang="en"] {
+    font-weight: bold;
+}
+
+/* class selector */
+.warning {
+    background-color: yellow;
+}
+
+/* id selector */
+#header {
+    background-color: gray;
+}
